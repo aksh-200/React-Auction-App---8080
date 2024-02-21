@@ -49,9 +49,9 @@ function App() {
          <Navbar.Brand href="#home" className="Brandlinks me-5"><h2>E-Antique</h2>  <pre>  </pre><h5>  (Antique Products Auction)</h5> </Navbar.Brand>
 
               <Nav className="me-auto  navbarlink">
-                <Nav.Link href= {absoluteurl + "home"} className="links" >Home</Nav.Link>
-                <Nav.Link href={absoluteurl + "login"} className="links" >LogIn</Nav.Link>
-                <Nav.Link href={absoluteurl + "signup"} className="links">SignUp</Nav.Link>
+                <Nav.Link href= { "home"} className="links" >Home</Nav.Link>
+                <Nav.Link href={ "login"} className="links" >LogIn</Nav.Link>
+                <Nav.Link href={"signup"} className="links">SignUp</Nav.Link>
               </Nav>
             </Container>
           </Navbar>
